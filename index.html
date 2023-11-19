@@ -29,9 +29,10 @@
 
         <label>
             Converter <b>para</b>
-            <select class="select">
+            <select class = "currency-select">
                 <option value ="dolar">US$ Dólar americano</option>
                 <option value = "euro">€ Euro</option>
+                <option value = "libra">£ Libra</option>
             </select>
         </label>
 
@@ -42,19 +43,19 @@
 
         <button class="convert-button"> Converter </button>
 
-        <Section>
+        <section>
             <div>
                 <img class="brasil-ico" src="Assets/flagBrasil.ico" alt="ico-moeda-a-ser-covertida">
-                <p class="currency-real">Real</p>
-                <p class="currency-value-real">R$ 0,00</p>
+                <p class="currency">Real</p>
+                <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
             <img class="arrow-ico" src="Assets/arrow-ico.ico" alt="flecha-pra-baixo">
             <div>
-                <img class="us-ico" src="Assets/euaflag.ico" alt="ico-moeda-já-convertida">
-                <p class="converted">Dolar</p>
+                <img class="currency-img" src="Assets/euaflag.ico" alt="ico-moeda-já-convertida">
+                <p class ="currency" id ="currency-name">Dólar americano</p>
                 <p class="converted-value">US$ 0,00</p>
             </div>
-        </Section>
+        </section>
 
     </main>
     <footer>By ThiagoRPL - v0.1beta</footer>
