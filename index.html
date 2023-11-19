@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moeda - by Rpl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link src="Assets/matrix.gif">
+    <script src="./script.js" defer></script>
+</head>
+
+
+<body>
+    <img src="Assets/logo.png" alt="Logo-devClub-convert-money">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select class="select">
+                <option value ="dolar">US$ Dólar americano</option>
+                <option value = "euro">€ Euro</option>
+            </select>
+        </label>
+
+        <label>
+            Valor
+            <input class="input" placeholder="digite o valor a ser convertido">
+        </label>
+
+        <button class="convert-button"> Converter </button>
+
+        <Section>
+            <div>
+                <img class="brasil-ico" src="Assets/flagBrasil.ico" alt="ico-moeda-a-ser-covertida">
+                <p class="currency-real">Real</p>
+                <p class="currency-value-real">R$ 0,00</p>
+            </div>
+            <img class="arrow-ico" src="Assets/arrow-ico.ico" alt="flecha-pra-baixo">
+            <div>
+                <img class="us-ico" src="Assets/euaflag.ico" alt="ico-moeda-já-convertida">
+                <p class="converted">Dolar</p>
+                <p class="converted-value">US$ 0,00</p>
+            </div>
+        </Section>
+
+    </main>
+    <footer>By ThiagoRPL - v0.1beta</footer>
+</body>
+
+
+</html>
